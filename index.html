@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linnea Wirne · Microbiome Bioinformatics</title>
+  <meta name="description" content="Bioinformatics code and research on the gut and vaginal microbiome, host–microbiome interactions and antibiotic resistance.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">Linnea Wirne</a>
+      <nav aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#software">Software</a></li>
+          <li><a href="#group">Research group</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="eyebrow">Karolinska Institutet · Stockholm</p>
+        <h1>Bioinformatics for the microbiome and women's health</h1>
+        <p class="lead">
+          Open, reproducible code for 16S rRNA and whole-genome sequencing,
+          MALDI-TOF identification and antibiotic-resistance analysis of gut
+          and vaginal bacterial isolates.
+        </p>
+        <div class="hero-actions">
+          <!-- EDIT: replace with your GitHub user/organisation URL -->
+          <a class="button primary" href="https://github.com/linnea-ki">Code on GitHub</a>
+          <a class="button" href="#cv">View CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>
+          I am a Research Assistant at Karolinska Institutet working on
+          host–microbiome interactions. My work combines laboratory
+          characterisation of gut and vaginal isolates (MALDI-TOF, antibiotic
+          susceptibility testing) with sequencing-based analysis (16S rRNA
+          amplicon and whole-genome sequencing).
+        </p>
+        <ul class="tag-list" aria-label="Research areas">
+          <li>Microbiome</li>
+          <li>Host–microbe interactions</li>
+          <li>Vaginal &amp; gut isolates</li>
+          <li>16S rRNA</li>
+          <li>WGS</li>
+          <li>MALDI-TOF</li>
+          <li>Antibiotic resistance</li>
+          <li>Women's health</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SOFTWARE ============ -->
+    <section id="software" class="section alt">
+      <div class="container">
+        <h2>Software &amp; pipelines</h2>
+        <p class="section-intro">
+          Code for my research analyses. Each repository has its own
+          README, environment file and example data.
+        </p>
+
+        <!-- EDIT: copy an <article class="card"> block per repository -->
+        <div class="card-grid">
+          <article class="card">
+            <h3>[16S amplicon pipeline]</h3>
+            <p>[Reads to ASV table, taxonomy, diversity and differential abundance.]</p>
+            <ul class="meta">
+              <li>Python</li><li>R</li><li>Snakemake</li>
+            </ul>
+            <a class="card-link" href="https://github.com/linnea-ki/REPO">Repository →</a>
+          </article>
+
+          <article class="card">
+            <h3>[Isolate WGS workflow]</h3>
+            <p>[QC, assembly, annotation and AMR gene detection for bacterial isolates.]</p>
+            <ul class="meta">
+              <li>Bash</li><li>Python</li><li>Nextflow</li>
+            </ul>
+            <a class="card-link" href="https://github.com/linnea-ki/REPO">Repository →</a>
+          </article>
+
+          <article class="card">
+            <h3>[MALDI-TOF spectra tools]</h3>
+            <p>[Preprocessing and clustering of MALDI-TOF mass spectra.]</p>
+            <ul class="meta">
+              <li>Python</li>
+            </ul>
+            <a class="card-link" href="https://github.com/linnea-ki/REPO">Repository →</a>
+          </article>
+
+          <article class="card">
+            <h3>[AST data analysis]</h3>
+            <p>[Antibiotic susceptibility data: MIC summaries and resistance phenotypes.]</p>
+            <ul class="meta">
+              <li>R</li>
+            </ul>
+            <a class="card-link" href="https://github.com/linnea-ki/REPO">Repository →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH GROUP ============ -->
+    <section id="group" class="section">
+      <div class="container narrow">
+        <h2>Research group</h2>
+        <p class="section-intro">The group's page at Karolinska Institutet lists the team, projects and news.</p>
+        <a class="group-card" href="https://ki.se/en/research/research-areas-centres-and-networks/research-groups/juan-du-lab">
+          <span class="group-name">Juan Du lab</span>
+          <span class="group-meta">Karolinska Institutet, research group page &rarr;</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ PUBLICATIONS ============ -->
+    <section id="publications" class="section alt">
+      <div class="container narrow">
+        <h2>Publications</h2>
+        <p class="section-intro">No publications yet.</p>
+      </div>
+    </section>
+
+    <!-- ============ CV ============ -->
+    <section id="cv" class="section">
+      <div class="container narrow">
+        <div class="cv-header">
+          <h2>CV</h2>
+          <!-- Put the PDF at assets/cv.pdf to make this button work -->
+          <a class="button" href="assets/cv.pdf">Download PDF</a>
+        </div>
+
+        <div class="cv-block">
+          <h3>Professional summary</h3>
+          <p>Biomedicine graduate with hands-on research experience in microbiology, oncology, and reproductive health, from bacterial and phage characterization to gene regulation in cancer cell lines and microRNA function in 3D endometrial models. My greatest motivation is closing research gaps in female-specific health conditions such as PMDD and hormonal disorders. Additional background in quality assurance and structured process development from Klarna. My current interest is the connection between the female microbiome and women's health.</p>
+        </div>
+
+        <div class="cv-block">
+          <h3>Technical skills</h3>
+          <dl class="skills">
+            <dt>Microbiology</dt>
+            <dd>Bacterial and phage culture (aerobic and anaerobic), MALDI-TOF mass spectrometry, phage isolation, antibiotic resistance assays, hemolysis assays</dd>
+            <dt>Molecular biology</dt>
+            <dd>DNA and RNA extraction, Oxford Nanopore sequencing, 16S sequencing, WGS, RT-qPCR, western blot</dd>
+            <dt>Cell culture and imaging</dt>
+            <dd>3D cell culture, transfection (electroporation, lipofection), cell viability assays, immunocytochemistry/immunostaining, confocal microscopy</dd>
+            <dt>Assays</dt>
+            <dd>CCK-8 cell viability assay, lactic acid assay, antibiotic resistance assays, hemolysis assays</dd>
+            <dt>Gut models</dt>
+            <dd>FaSSIF and FaSSGF analysis (fasted-state simulated intestinal and gastric fluids)</dd>
+            <dt>Bioinformatics</dt>
+            <dd>16S rRNA sequencing workflow and analysis; whole-genome sequencing (WGS) workflow and analysis</dd>
+            <dt>Histology</dt>
+            <dd>Tissue processing and paraffin embedding, microtomy, histological staining</dd>
+            <dt>Dry lab</dt>
+            <dd>Galaxy platform for phage genome analysis (NanoPlot, Flye, geNomad, CheckV), UCSF Chimera, PyMOL, BLAST, UniProt, GraphPad Prism, R, ImageJ/Fiji, Inkscape</dd>
+          </dl>
+        </div>
+
+        <div class="cv-block">
+          <h3>Work experience</h3>
+          <dl class="timeline">
+            <dt>Aug 2026 – now</dt>
+            <dd>
+              <strong>Research Assistant</strong><br>
+              Karolinska University Hospital, affiliated with Karolinska Institutet. Dept. of Microbiology, Tumor and Cell Biology, Division of Host-Microbe, Juan Du Lab
+              <ul>
+                <li>Isolated and cultured gut and vaginal bacterial strains under aerobic and anaerobic conditions; identified species using MALDI-TOF mass spectrometry</li>
+                <li>Performed DNA extraction and Oxford Nanopore sequencing (16S and whole-genome); characterized isolates using antibiotic resistance assays, hemolysis assays, and western blot</li>
+                <li>Isolated bacteriophages from sewage using the double agar overlay method and analyzed phage genomes from sequencing data in Galaxy</li>
+                <li>Managed lab inventory and ordering, including supplier quotes and team events</li>
+                <li>Performed CCK-8 cell viability assays and lactic acid assays</li>
+                <li>Carried out 16S rRNA sequencing workflow and analysis, and whole-genome sequencing (WGS) workflow and analysis</li>
+                <li>Performed FaSSIF and FaSSGF analysis (fasted-state simulated intestinal and gastric fluids)</li>
+              </ul>
+            </dd>
+
+            <dt>Jun 2026 – Jul 2026</dt>
+            <dd>
+              <strong>Research Assistant</strong><br>
+              Karolinska Institutet, Dept. of Oncology-Pathology, Coding and non-coding RNAs in cancer, Per Hydbring's Team
+              <ul>
+                <li>Quantified expression of genes associated with lung cancer across resistant and parental lung cancer cell lines</li>
+                <li>Performed miRNA transfections by lipofection (reverse transfection) and cDNA transfections (forward transfection) to investigate gene regulatory effects, followed by cell viability assays</li>
+                <li>Carried out DNA and RNA extraction and purification for downstream molecular analysis</li>
+                <li>Analyzed and visualized experimental data using GraphPad Prism</li>
+              </ul>
+            </dd>
+
+            <dt>Jan 2026 – Jun 2026</dt>
+            <dd>
+              <strong>Bachelor's Thesis Researcher</strong><br>
+              Karolinska Institutet, Dept. of Women's and Children's Health, Reproductive Health / Reproductive Medicine, Kristina Gemzell Danielsson's research group
+              <ul>
+                <li>Investigated how microRNAs affect implantation gene expression and functional markers in human endometrial organoids/spheroids, treated with hormones to mimic the menstrual cycle and study endometrial receptivity in vitro</li>
+                <li>Performed miRNA delivery via electroporation, RNA extraction, RT-qPCR, immunostaining, and confocal microscopy imaging</li>
+                <li>Independently managed experimental workflows from cell culture to data analysis and figure preparation in ImageJ/Fiji, R, and Inkscape</li>
+              </ul>
+            </dd>
+
+            <dt>Summer 2024 &amp; 2025</dt>
+            <dd>
+              <strong>Laboratory Assistant (summer internship)</strong><br>
+              Karolinska University Hospital, Hematopathology
+              <ul>
+                <li>Prepared fresh tissue specimens (bone marrow biopsies, tonsils, needle biopsies) for diagnosis, including paraffin embedding, microtomy, and histological staining (Hematoxylin, GOS, May-Grünwald-Giemsa, iron); trained in safe handling of chemicals and patient samples</li>
+              </ul>
+            </dd>
+
+            <dt>Sep 2018 – Aug 2023</dt>
+            <dd>
+              <strong>Merchant Service &amp; Quality Assurance Specialist</strong><br>
+              Klarna. Full-time Sep 2018 – Aug 2021; part-time alongside studies Aug 2021 – Aug 2023
+              <ul>
+                <li>Built and structured a new QA role within the Klarna Card domain from scratch, designing a standardized process for handling customer complaints</li>
+                <li>Collaborated with product managers to deliver process improvements and increase customer satisfaction</li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+
+        <div class="cv-block">
+          <h3>Education</h3>
+          <dl class="timeline">
+            <dt>Aug 2023 – Jun 2026</dt>
+            <dd>
+              <strong>Bachelor's Programme in Biomedicine</strong><br>
+              Karolinska Institutet
+            </dd>
+
+            <dt>Advanced-level</dt>
+            <dd>
+              <strong>Advanced-level coursework</strong><br>
+              Uppsala University, 10 credits in total
+              <ul>
+                <li>Applied Pharmaceutical Structural Bioinformatics (5 credits), completed, grade: Pass with Distinction (VG)</li>
+                <li>Applied Pharmaceutical Bioinformatics (5 credits), in progress, starting Nov 2026</li>
+              </ul>
+            </dd>
+
+            <dt>Aug 2021 – Jan 2023</dt>
+            <dd>
+              <strong>Medical Engineering (not completed)</strong><br>
+              Uppsala University
+            </dd>
+          </dl>
+        </div>
+
+        <div class="cv-block">
+          <h3>Additional information</h3>
+          <dl class="skills">
+            <dt>Research interests</dt>
+            <dd>The connection between the female microbiome and women's health</dd>
+            <dt>Languages</dt>
+            <dd>Swedish (native), English (fluent)</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section alt">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p>
+          Questions about the code or collaborations are welcome. For bugs,
+          please open an issue in the relevant GitHub repository.
+        </p>
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:linnea.wirne@ki.se">linnea.wirne@ki.se</a></li>
+          <li><span>GitHub</span><a href="https://github.com/linnea-ki">github.com/linnea-ki</a></li>
+          <li><span>Group</span><a href="https://ki.se/en/research/research-areas-centres-and-networks/research-groups/juan-du-lab">Juan Du lab, Karolinska Institutet</a></li>
+          <li><span>Address</span>Karolinska Institutet, Stockholm, Sweden</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Linnea Wirne · Built with plain HTML &amp; CSS · <a href="#top">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
