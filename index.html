@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linnea Wirne · Microbiome Bioinformatics</title>
+  <meta name="description" content="Bioinformatics code and research on the gut and vaginal microbiome, host–microbiome interactions and antibiotic resistance.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">Linnea Wirne</a>
+      <nav aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#software">Software</a></li>
+          <li><a href="#group">Research group</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="eyebrow">Karolinska Institutet · Stockholm</p>
+        <h1>Bioinformatics for the microbiome and women's health</h1>
+        <p class="lead">
+          Open, reproducible code for 16S rRNA and whole-genome sequencing,
+          MALDI-TOF identification and antibiotic-resistance analysis of gut
+          and vaginal bacterial isolates.
+        </p>
+        <div class="hero-actions">
+          <!-- EDIT: replace with your GitHub user/organisation URL -->
+          <a class="button primary" href="https://github.com/linnea-ki">Code on GitHub</a>
+          <a class="button" href="#cv">View CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>
+          I am a Research Assistant at Karolinska Institutet working on
+          host–microbiome interactions. My work combines laboratory
+          characterisation of gut and vaginal isolates (MALDI-TOF, antibiotic
+          susceptibility testing) with sequencing-based analysis (16S rRNA
+          amplicon and whole-genome sequencing).
+        </p>
+        <p>
+          <!-- EDIT: one or two sentences on your current project and goals -->
+          [Add a short description of your current research questions and what
+          the code on this site is used for.]
+        </p>
+        <ul class="tag-list" aria-label="Research areas">
+          <li>Microbiome</li>
+          <li>Host–microbe interactions</li>
+          <li>Vaginal &amp; gut isolates</li>
+          <li>16S rRNA</li>
+          <li>WGS</li>
+          <li>MALDI-TOF</li>
+          <li>Antibiotic resistance</li>
+          <li>Women's health</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SOFTWARE ============ -->
+    <section id="software" class="section alt">
+      <div class="container">
+        <h2>Software &amp; pipelines</h2>
+        <p class="section-intro">
+          Code for the analyses in our papers. Each repository has its own
+          README, environment file and example data.
+        </p>
+
+        <!-- EDIT: copy an <article class="card"> block per repository -->
+        <div class="card-grid">
+          <article class="card">
+            <h3>[16S amplicon pipeline]</h3>
+            <p>[Reads to ASV table, taxonomy, diversity and differential abundance.]</p>
+            <ul class="meta">
+              <li>Python</li><li>R</li><li>Snakemake</li>
+            </ul>
+            <a class="card-link" href="https://github.com/linnea-ki/REPO">Repository →</a>
+          </article>
+
+          <article class="card">
+            <h3>[Isolate WGS workflow]</h3>
+            <p>[QC, assembly, annotation and AMR gene detection for bacterial isolates.]</p>
+            <ul class="meta">
+              <li>Bash</li><li>Python</li><li>Nextflow</li>
+            </ul>
+            <a class="card-link" href="https://github.com/linnea-ki/REPO">Repository →</a>
+          </article>
+
+          <article class="card">
+            <h3>[MALDI-TOF spectra tools]</h3>
+            <p>[Preprocessing and clustering of MALDI-TOF mass spectra.]</p>
+            <ul class="meta">
+              <li>Python</li>
+            </ul>
+            <a class="card-link" href="https://github.com/linnea-ki/REPO">Repository →</a>
+          </article>
+
+          <article class="card">
+            <h3>[AST data analysis]</h3>
+            <p>[Antibiotic susceptibility data: MIC summaries and resistance phenotypes.]</p>
+            <ul class="meta">
+              <li>R</li>
+            </ul>
+            <a class="card-link" href="https://github.com/linnea-ki/REPO">Repository →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH GROUP ============ -->
+    <section id="group" class="section">
+      <div class="container narrow">
+        <h2>Research group</h2>
+        <p class="section-intro">The group's page at Karolinska Institutet lists the team, projects and news.</p>
+        <a class="group-card" href="https://ki.se/en/research/research-areas-centres-and-networks/research-groups/juan-du-lab">
+          <span class="group-name">Juan Du lab</span>
+          <span class="group-meta">Karolinska Institutet, research group page &rarr;</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ PUBLICATIONS ============ -->
+    <section id="publications" class="section alt">
+      <div class="container narrow">
+        <h2>Publications</h2>
+        <p class="section-intro">No publications yet.</p>
+      </div>
+    </section>
+
+    <!-- ============ CV ============ -->
+    <section id="cv" class="section">
+      <div class="container narrow">
+        <div class="cv-header">
+          <h2>CV</h2>
+          <!-- EDIT: put your PDF at assets/cv.pdf -->
+          <a class="button" href="assets/cv.pdf">Download PDF</a>
+        </div>
+
+        <div class="cv-block">
+          <h3>Positions</h3>
+          <dl class="timeline">
+            <dt>[20XX]–present</dt>
+            <dd>
+              <strong>Research Assistant</strong><br>
+              [Department], Karolinska Institutet, Stockholm
+            </dd>
+            <dt>[20XX]–[20XX]</dt>
+            <dd>
+              <strong>[Position]</strong><br>
+              [Department, Institution, City]
+            </dd>
+          </dl>
+        </div>
+
+        <div class="cv-block">
+          <h3>Education</h3>
+          <dl class="timeline">
+            <dt>[20XX]</dt>
+            <dd>
+              <strong>[MSc in …]</strong><br>
+              [University]
+            </dd>
+            <dt>[20XX]</dt>
+            <dd>
+              <strong>[BSc in …]</strong><br>
+              [University]
+            </dd>
+          </dl>
+        </div>
+
+        <div class="cv-block">
+          <h3>Skills</h3>
+          <dl class="skills">
+            <dt>Wet lab</dt>
+            <dd>Culturing of gut and vaginal isolates, MALDI-TOF identification, antibiotic susceptibility testing, DNA extraction</dd>
+            <dt>Sequencing</dt>
+            <dd>16S rRNA amplicon sequencing, bacterial whole-genome sequencing</dd>
+            <dt>Computational</dt>
+            <dd>[Python, R, Bash, Snakemake/Nextflow, Git, HPC/SLURM, QIIME 2/DADA2 …]</dd>
+          </dl>
+        </div>
+
+        <div class="cv-block">
+          <h3>Grants, awards &amp; talks</h3>
+          <dl class="timeline">
+            <dt>[20XX]</dt>
+            <dd>[Award / grant / presentation title, venue]</dd>
+          </dl>
+        </div>
+
+        <div class="cv-block">
+          <h3>Teaching &amp; service</h3>
+          <dl class="timeline">
+            <dt>[20XX]</dt>
+            <dd>[Course or workshop, role]</dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section alt">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p>
+          Questions about the code or collaborations are welcome. For bugs,
+          please open an issue in the relevant GitHub repository.
+        </p>
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:linnea.wirne@ki.se">linnea.wirne@ki.se</a></li>
+          <li><span>GitHub</span><a href="https://github.com/linnea-ki">github.com/linnea-ki</a></li>
+          <li><span>Group</span><a href="https://ki.se/en/research/research-areas-centres-and-networks/research-groups/juan-du-lab">Juan Du lab, Karolinska Institutet</a></li>
+          <li><span>Address</span>Karolinska Institutet, Stockholm, Sweden</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Linnea Wirne · Built with plain HTML &amp; CSS · <a href="#top">Back to top ↑</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
